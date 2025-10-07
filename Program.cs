@@ -1,35 +1,23 @@
-﻿using System;
-class Program
+﻿class Program
 {
-    // Fast resultat meny
-    public static void GameStatus(Player player, Player computer)
+    static void Main()
     {
-        Console.WriteLine("--------------------------------------------------");
-        Console.WriteLine($"Player: {player.Name,-10} Player: {computer.Name}");
-        Console.WriteLine($"Ammo:   {player.Ammo,-10} Ammo:   {computer.Ammo}");
-        Console.WriteLine("--------------------------------------------------");
-    }
-    public static void Main()
-    {
+        // Start menu
         Console.WriteLine("\n=== Shotgun Game ===");
-        Console.WriteLine("\nEnter a name: ");
-        string? name = Console.ReadLine();
+        string playerName = InvalidType.GetPlayerName();
 
-        Player player = new Player(name);
+        Player player = new Player(playerName);
         Computer computer = new Computer();
         Game game = new Game(player, computer);
 
         Console.Clear();
 
+        // Main game loop
         while (true)
         {
+            Info.GameStatus(player, computer); // Information screen for game mode.
 
-            Console.Clear();
-
-            Console.WriteLine("\n=== Shotgun Game ===");
-            GameStatus(player, computer);
-
-            Console.Write("\nChoose action: (1) Reload (2) Shoot (3) Block ");
+            Console.Write("\nChoose action: (1) Reload (2) Shoot (3) Block "); // Player chooses action.
             if (player.CanShotgun())
             {
                 Console.WriteLine("(4) Shotgun");
@@ -37,33 +25,26 @@ class Program
 
             Console.WriteLine();
 
-            string action = InvalidType.WrongType();
+            string action = InvalidType.GetValidAction(player.CanShotgun());
 
-            // Förenkla den här delen
-
-            ActionType playerChoice = ActionType.None;
-
-            if (action == "1") playerChoice = ActionType.Reload;
-
-            else if (action == "2") playerChoice = ActionType.Shoot;
-
-            else if (action == "3") playerChoice = ActionType.Block;
-
-            else if (action == "4") playerChoice = ActionType.Shotgun;
+            ActionType playerAction = ActionConverter.ConvertInput(action);
 
             Console.Clear();
 
-            Console.WriteLine("\n=== Shotgun Game ===");
-            GameStatus(player, computer);
+            Info.GameStatus(player, computer); // Information screen for game mode.
 
-            bool gameOver = game.PlayRound(playerChoice);
+            // Game over!
+            bool gameOver = game.PlayRound(playerAction);
+            bool continueGame = RestartGame.GameOver(gameOver, player, computer);
 
-            if (gameOver) break;
+            if (!continueGame)
+            {
+                break;
+            }
 
             Console.WriteLine("\nPress any key to continue");
             Console.ReadKey();
-
+            Console.Clear();
         }
     }
 }
-// test från min dator...

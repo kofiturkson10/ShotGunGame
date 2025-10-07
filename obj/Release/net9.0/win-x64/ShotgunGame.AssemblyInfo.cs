@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShotgunGame")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71b1f23e1fa5814d11247f1b1911da580a5466bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dfb7035b146fe0ff0dda5fd4fe1859669783a9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShotgunGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShotgunGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

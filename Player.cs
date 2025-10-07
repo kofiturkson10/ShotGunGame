@@ -1,17 +1,19 @@
 class Player
 {
+    // Basic player setup. Players name and ammo.
     public string Name { get; }
-    public int Ammo { get; private set; }
+    public int Ammo { get; private set; } // Player ammo is only modifiable by the player methods.
     public Player(string name)
     {
         Name = name;
         Ammo = 0;
     }
-    // Metoder för Player
+    // Reloads the gun
     public void Reload()
     {
         Ammo++;
     }
+    // Shooting the gun. Only possible when loaded.
     public void Shoot()
     {
         if (Ammo > 0)
@@ -19,7 +21,7 @@ class Player
             Ammo--;
         }
     }
-
+    // Using the Shotgun action. 
     public void Shotgun()
     {
         if (Ammo >= 3)
@@ -27,6 +29,7 @@ class Player
             Ammo = 0;
         }
     }
+    // When it's possible to shoot.
     public bool CanShoot()
     {
         if (Ammo > 0)
@@ -38,6 +41,7 @@ class Player
             return false;
         }
     }
+    // Only possible to use Shotgun with 3 bullets in the clip.
     public bool CanShotgun()
     {
         if (Ammo >= 3)
@@ -49,6 +53,7 @@ class Player
             return false;
         }
     }
+    // Resets the ammo to 0. 
     public void Reset()
     {
         Ammo = 0;

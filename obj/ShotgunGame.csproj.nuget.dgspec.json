@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\ShotgunGame\\ShotgunGame.csproj": {}
+    "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\Inlämningsuppgifter\\ShotgunGame\\ShotgunGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\ShotgunGame\\ShotgunGame.csproj": {
+    "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\Inlämningsuppgifter\\ShotgunGame\\ShotgunGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\ShotgunGame\\ShotgunGame.csproj",
+        "projectUniqueName": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\Inlämningsuppgifter\\ShotgunGame\\ShotgunGame.csproj",
         "projectName": "ShotgunGame",
-        "projectPath": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\ShotgunGame\\ShotgunGame.csproj",
+        "projectPath": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\Inlämningsuppgifter\\ShotgunGame\\ShotgunGame.csproj",
         "packagesPath": "C:\\Users\\kofit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\ShotgunGame\\obj\\",
+        "outputPath": "C:\\Users\\kofit\\OneDrive\\Desktop\\Kofi Turkson\\Jensen Yh\\Programmering med C#, grund\\Inlämningsuppgifter\\ShotgunGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

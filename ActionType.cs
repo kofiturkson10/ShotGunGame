@@ -1,35 +1,29 @@
 public enum ActionType
 {
-    None,
-    Reload,
-    Shoot,
-    Block,
-    Shotgun
+    None, // default.
+    Reload, // +1 ammo.
+    Shoot, // -1 ammo (demands ammo > 0)
+    Block, // Blocks opponents shot.
+    Shotgun // Winning move (>= 3 ammo)
 }
+
+// Converts users menu choise from (string) to ActionType
 public static class ActionConverter
 {
     public static ActionType ConvertInput(string action)
     {
-        if (action == "1")
+        switch (action)
         {
-            return ActionType.Reload;
-        }
-        else if (action == "2")
-        {
-            return ActionType.Shoot;
-        }
-        else if (action == "3")
-        {
-            return ActionType.Block;
-        }
-
-        else if (action == "4")
-        {
-            return ActionType.Shotgun;
-        }
-        else
-        {
-            return ActionType.None;
+            case "1":
+                return ActionType.Reload;
+            case "2":
+                return ActionType.Shoot;
+            case "3":
+                return ActionType.Block;
+            case "4":
+                return ActionType.Shotgun;
+            default:
+                return ActionType.None;
         }
     }
 }
