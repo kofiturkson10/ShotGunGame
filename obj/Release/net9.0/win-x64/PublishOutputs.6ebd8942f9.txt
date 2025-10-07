@@ -1,0 +1,5 @@
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\publish\ShotgunGame.exe
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\publish\ShotgunGame.dll
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\publish\ShotgunGame.deps.json
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\publish\ShotgunGame.runtimeconfig.json
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\publish\ShotgunGame.pdb

@@ -1,0 +1,15 @@
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\ShotgunGame.exe
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\ShotgunGame.deps.json
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\ShotgunGame.runtimeconfig.json
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\ShotgunGame.dll
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\bin\Release\net9.0\win-x64\ShotgunGame.pdb
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.AssemblyInfoInputs.cache
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.AssemblyInfo.cs
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.csproj.CoreCompileInputs.cache
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.sourcelink.json
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.dll
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\refint\ShotgunGame.dll
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.pdb
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ShotgunGame.genruntimeconfig.cache
+C:\Users\kofit\OneDrive\Desktop\Kofi Turkson\Jensen Yh\Programmering med C#, grund\Inlämningsuppgifter\ShotgunGame\obj\Release\net9.0\win-x64\ref\ShotgunGame.dll
