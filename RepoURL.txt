@@ -1,0 +1,5 @@
+Shotgun game - Inlämningsuppgift 1
+Publikt GitHub-repo för Inlämning
+
+Länk:
+https://github.com/kofiturkson10/ShotGunGame
